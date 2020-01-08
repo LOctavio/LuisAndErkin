@@ -10,6 +10,10 @@
           display: none;
         }
       }
+
+      #header {
+        display: flex;
+      }
     </style>
     
   </head>
@@ -31,6 +35,7 @@
     -->
     <script  src="js/index.js"></script>
 
+    <div></div>
     <header id="header">
       <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg
       " id="header-img">
@@ -41,12 +46,19 @@
 
       </nav>
     </header>
-    <main>    
+  </div>
+    <main>
+      <div>   
       <video id="video" controls src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/dog+video.mp4"></video>
+    </div>  
       <div>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div> 
           <input id="email" placeholder="#email" type="email" name="email">Please Enter Your Email!
+          </div> 
+          <div> 
           <input id="submit" type="submit">
+          </div> 
         </form>
       </div>
     </main>
